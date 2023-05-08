@@ -1,39 +1,26 @@
-.best-title {
-  margin-bottom: 40px;
+.btn-more {
+padding: 14px 28px;
 
-  font-family: inherit;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 1.08;
-  letter-spacing: -0.04em;
-  color: var(--main-font);
-}
+max-width: 124px;
+height: 46px;
 
-.best-title-span {
-  color: #4f2ee8;
-}
+border: 2px solid var(--purple-color);
+border-radius: 40px;
 
-.best-img {
-  width: 180px;
-  height: 256px;
-  margin-bottom: 14px;
-}
+white-space: nowrap;
 
-.category-title {
-  margin-bottom: 18px;
-}
+font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.29;
 
-.book-name {
-    margin-bottom: 4px;
-}
+letter-spacing: -0.01em;
+text-transform: uppercase;
 
-.book-author {
-  margin-bottom: 32px;
-}
+color: var(--black-color);
+background-color: var(--white-color);
 
-.list-name-btn {
-    margin-left: auto;
 }
 
 
