@@ -1,10 +1,10 @@
 .hr-mob {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   fill: var(--black-color);
   position: absolute;
-  top: 16px;
-  right: 80px;
+  top: 12px;
+  right: 60px;
 }
 .hr-mob:hover, .hr-mob:focus{
   fill: #4f2ee8;
@@ -235,6 +235,10 @@
   .hr-mob:hover, .hr-mob:focus{
     fill: #4f2ee8;
   }
+
+}
+.shop-shoppingList-img {
+  filter: grayscale(1);
 }
 
 /* DESKTOP */

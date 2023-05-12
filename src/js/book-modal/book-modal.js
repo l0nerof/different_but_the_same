@@ -145,6 +145,7 @@ function renderStats(book) {
       </ul>
     </div>
     <button class="add-to-list-button">Add to Shopping List</button>
+    <p class="congrats"></p>
 
 `;
 const modalContent = document.querySelector('.modal-content');
@@ -202,6 +203,8 @@ bookDescription,
 bookImageUrl
 );
 button.textContent = 'Remove from Shopping List';
+button.nextElementSibling.innerHTML =
+'Сongratulations! You have added the book to the shopping list. To delete, press the button “Remove from the shopping list”.';
 }
 
 updateShoppingListInfo();
